@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="personal.project.beercanoutlook.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Here is my long, intricate explanation of the reasons behind doing this"
+        />
+
+    <Button
+        android:id="@+id/picture_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="48dp"
+        android:text="Add Pictures" />
+
+    <Button
+        android:id="@+id/sentence_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="48dp"
+        android:text="Use Product" />
+
+    <Button
+        android:id="@+id/mission_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="48dp"
+
+        android:text="Mission Statement" />
+</LinearLayout>
