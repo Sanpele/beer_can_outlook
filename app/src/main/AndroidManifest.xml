@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BeerCanOutlook">
-        <activity android:name="personal.project.beercanoutlook.MissionStatementActivity" />
-        <activity android:name="personal.project.beercanoutlook.ChangeSentenceActivity" />
-        <activity android:name="personal.project.beercanoutlook.UploadActivity" />
-        <activity android:name="personal.project.beercanoutlook.MainActivity">
+        <activity android:name="personal.project.beercanoutlook.presentation.MissionStatementActivity" />
+        <activity android:name="personal.project.beercanoutlook.presentation.ChangeSentenceActivity" />
+        <activity android:name="personal.project.beercanoutlook.presentation.UploadActivity" />
+        <activity android:name="personal.project.beercanoutlook.presentation.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

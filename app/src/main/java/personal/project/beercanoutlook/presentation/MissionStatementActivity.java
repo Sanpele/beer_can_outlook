@@ -1,5 +1,5 @@
 
-package personal.project.beercanoutlook;
+package personal.project.beercanoutlook.presentation;
 
 import androidx.appcompat.app.AppCompatActivity;
 

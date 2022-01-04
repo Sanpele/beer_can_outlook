@@ -1,4 +1,4 @@
-package personal.project.beercanoutlook;
+package personal.project.beercanoutlook.presentation;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

@@ -1,4 +1,4 @@
-package personal.project.beercanoutlook;
+package personal.project.beercanoutlook.presentation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import personal.project.beercanoutlook.R;
 
-public class ChangeSentenceActivity extends AppCompatActivity {
+public class UploadActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_change_sentence);
+        setContentView(R.layout.activity_upload);
     }
 }
