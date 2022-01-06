@@ -17,13 +17,14 @@ public class Brewery {
     public Brewery( String name) {
         this.personalID = Brewery.id;
         Brewery.id++;
+
         this.name = name;
         this.beers = new ArrayList<>();
         this.logo = R.mipmap.ic_launcher;
 
     }
 
-    public Brewery(int id, String name, String location, int logo) {
+    public Brewery(String name, String location, int logo) {
         this.personalID = Brewery.id;
         Brewery.id++;
         this.name = name;

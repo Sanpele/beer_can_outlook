@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initIDs() {
         ids = new HashMap<>();
-        ids.put(R.id.picture_button,UploadActivity.class);
+        ids.put(R.id.picture_button, UploadRootActivity.class);
         ids.put(R.id.sentence_button,ChangeSentenceActivity.class);
         ids.put(R.id.mission_button,MissionStatementActivity.class);
     }

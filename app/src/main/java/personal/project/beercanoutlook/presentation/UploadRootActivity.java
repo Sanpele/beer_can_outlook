@@ -9,7 +9,7 @@ import java.util.Objects;
 
 import personal.project.beercanoutlook.R;
 
-public class UploadActivity extends AppCompatActivity {
+public class UploadRootActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

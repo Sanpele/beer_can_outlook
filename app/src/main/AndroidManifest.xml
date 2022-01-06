@@ -11,7 +11,7 @@
         android:theme="@style/Theme.BeerCanOutlook">
         <activity android:name="personal.project.beercanoutlook.presentation.MissionStatementActivity" />
         <activity android:name="personal.project.beercanoutlook.presentation.ChangeSentenceActivity" />
-        <activity android:name="personal.project.beercanoutlook.presentation.UploadActivity" />
+        <activity android:name="personal.project.beercanoutlook.presentation.UploadRootActivity" />
         <activity android:name="personal.project.beercanoutlook.presentation.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
