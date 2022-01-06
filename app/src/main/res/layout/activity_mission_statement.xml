@@ -5,4 +5,8 @@
     android:layout_height="match_parent"
     tools:context="personal.project.beercanoutlook.presentation.MissionStatementActivity">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
 </LinearLayout>
