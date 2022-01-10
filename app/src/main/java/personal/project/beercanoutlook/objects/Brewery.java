@@ -33,6 +33,18 @@ public class Brewery {
         this.logo = logo;
     }
 
+    public Brewery update(Brewery brew) {
+        if (brew.getId() != this.personalID)
+            return null;
+
+        this.name = brew.getName();
+        this.location = brew.getLocation();
+        this.logo = brew.getLogo();
+        if (!this.beers.equals(brew.getBeers()))
+            this.beers = brew.getBeers();
+        return this;
+    }
+
     public int getId() {
         return id;
     }
@@ -52,7 +64,5 @@ public class Brewery {
     public int getLogo() {
         return logo;
     }
-
-
 
 }
